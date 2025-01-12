@@ -1,35 +1,42 @@
 ---
-title: Ob, your Hobbys in one place
+title: Ob, Your Hobbies in One Place
 publishDate: 2020-03-02 00:00:00
 img: /assets/Ob.PNG
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Ob est une plateforme en ligne permettant aux utilisateurs de suivre, découvrir et partager leurs passions, qu'il s'agisse de séries, films, livres ou autres centres d'intérêt, tout en gagnant de l'expérience et en interagissant avec une communauté.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - WebDesign
+  - FullStack
+  - API
 ---
 
-## Level-two heading
+## Présentation du projet
 
-> Bankai
+Le projet consiste à créer une plateforme interactive permettant aux utilisateurs de suivre leurs séries, films et livres préférés. Les utilisateurs pourront discuter de leurs dernières découvertes, créer des listes de favoris et accumuler de l'expérience pour progresser dans un système de niveaux. Ce projet est destiné aux passionnés de livres, séries et films, et a pour but d'encourager l'engagement communautaire et la compétition amicale entre utilisateurs. 
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+Il est développé par une équipe composée de moi et 3 autres collègues. Le projet a débuté le 10 septembre 2024, avec un délai de six mois, et se structure autour de plusieurs étapes importantes, dont la remise du rapport prévu pour novembre 2024, le premier prototype à la mi-décembre, et le deuxième prototype en fin janvier 2025.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+### Technologies utilisées
 
-### Level-three heading
+Les technologies utilisées pour ce projet incluent :
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+- **HTML et CSS** : Ces langages serviront à structurer et mettre en forme la page web, constituant le corps du site.
+- **PHP** : Utilisé pour générer des pages web dynamiques et interagir avec la base de données, il assurera la logique serveur du site.
+- **JavaScript** : Ce langage ajoutera des fonctionnalités interactives et dynamiques côté client, améliorant ainsi l'expérience utilisateur.
+- **SQL** : Employé pour gérer et manipuler les données au sein de la base, permettant de stocker, récupérer et organiser les informations.
 
-### Level-three heading
+Les ressources suivantes seront également utilisées pour faciliter le développement :
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+- **Discord** : Outil de communication et de collaboration entre les membres de l’équipe, servant à suivre l’avancement du projet.
+- **Notion** : Utilisé pour structurer le projet, organiser le rapport, et gérer les tâches ainsi que la documentation.
+- **Git** : Permet la gestion du code source, le suivi des versions et la collaboration sur le code, assurant une gestion centralisée des modifications et des contributions de chaque membre.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+### Fonctionnalités principales
 
-#### Level-four heading
+La plateforme proposera plusieurs fonctionnalités clés pour améliorer l’expérience des utilisateurs. Tout d'abord, un **catalogue des contenus** permettra aux utilisateurs de consulter et d’ajouter des films, séries et livres. Un **système de recherche** avec **filtres** facilitera la navigation dans le catalogue. L’**authentification** sera gérée avec des fonctionnalités telles que la **création de compte**, **connexion** sécurisée avec limitation des tentatives et la **récupération de mot de passe**.
 
-- We noted this
-- And also this other point
+Les utilisateurs pourront suivre leur **historique de visionnage**, attribuer un **statut** aux contenus et les **noter**. Des options supplémentaires incluront la possibilité d’écrire des **reviews**, de **liker/disliker** des contenus, et de **personnaliser leur profil**. Le système offrira également des options de **confidentialité** pour chaque utilisateur.
+
+Enfin, la plateforme pourra inclure des **notifications** pour informer des **sorties de nouveaux contenus** et de **suites** à venir. Un espace de **commentaires** sera disponible, ainsi que des **flags anti-spoils** pour garantir une expérience agréable et sans gâchis.
+
