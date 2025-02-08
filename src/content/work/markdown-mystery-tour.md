@@ -13,7 +13,7 @@ tags:
 
 ## Présentation du projet
 
-Le projet consiste à créer une plateforme interactive permettant aux utilisateurs de suivre leurs séries, films et livres préférés. Les utilisateurs pourront discuter de leurs dernières découvertes, créer des listes de favoris et accumuler de l'expérience pour progresser dans un système de niveaux. Ce projet est destiné aux passionnés de livres, séries et films, et a pour but d'encourager l'engagement communautaire et la compétition amicale entre utilisateurs. 
+Le projet consiste à créer une plateforme interactive permettant aux utilisateurs de suivre leurs séries, films et livres préférés. Les utilisateurs pourront discuter de leurs dernières découvertes, créer des listes de favoris et accumuler de l'expérience pour progresser dans un système de niveaux. Ce projet est destiné aux passionnés de séries et films, et a pour but d'encourager l'engagement communautaire et la compétition amicale entre utilisateurs. 
 
 Il est développé par une équipe composée de moi et 3 autres collègues. Le projet a débuté le 10 septembre 2024, avec un délai de six mois, et se structure autour de plusieurs étapes importantes, dont la remise du rapport prévu pour novembre 2024, le premier prototype à la mi-décembre, et le deuxième prototype en fin janvier 2025.
 

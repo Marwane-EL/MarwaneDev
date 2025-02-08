@@ -74,12 +74,24 @@ const { Content } = await render(entry);
 		gap: 1.5rem;
 		justify-content: space-between;
 		align-items: center;
+		max-width: 100%; /* Empêche le dépassement */
+		overflow: hidden; /* Coupe le débordement si nécessaire */
+		word-wrap: break-word; /* Coupe les mots longs */
+	}
+
+	.details > * {
+		max-width: 100%; /* Empêche les enfants de dépasser */
+		word-break: break-word; /* Forcer la coupure des mots trop longs */
+		white-space: normal; /* Permet aux textes de revenir à la ligne */
 	}
 
 	.tags {
-		display: flex;
-		gap: 0.5rem;
-	}
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
+    gap: 0.5rem; /* Espace entre les tags */
+    overflow: hidden; /* Évite les débordements */
+	justify-content: center;
+}
 
 	.description {
 		font-size: var(--text-lg);
@@ -87,8 +99,15 @@ const { Content } = await render(entry);
 	}
 
 	.content {
-		max-width: 65ch;
+		max-width: 75%;
+		margin: auto;
 		margin-inline: auto;
+		line-height: 1.8; 
+		font-size: 1.1em;
+	}
+
+	content ul{
+		color: aqua;
 	}
 
 	.content > :global(* + *) {

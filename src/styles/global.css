@@ -195,11 +195,13 @@ h5 {
 	max-width: 83rem;
 	margin-inline: auto;
 	padding-inline: 1.5rem;
+	margin: auto;
 }
 
 .stack {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .gap-2 {
@@ -238,7 +240,7 @@ h5 {
 		gap: 2rem;
 	}
 	.lg\:gap-10 {
-		gap: 2.5rem;
+		gap: 2rem;
 	}
 	.lg\:gap-15 {
 		gap: 3.75rem;

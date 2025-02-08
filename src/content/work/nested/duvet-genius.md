@@ -4,19 +4,39 @@ publishDate: 2020-03-04 00:00:00
 img: /assets/gestionAir.png
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  Ce projet vise à modéliser et optimiser la gestion de l'espace aérien français en minimisant les risques de collision entre vols. Il repose sur la construction et l'analyse d'un graphe d'intersection de vols afin d'attribuer des niveaux de vol de manière optimale.
 tags:
-  - Design
-  - Dev
-  - Branding
+  - Java
+  - IHM
+  - Graphe
+  - Optimisation
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+#### Présentation du projet
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Le projet consiste à gérer l'espace aérien français en attribuant des niveaux de vol à un ensemble de vols entre plusieurs aéroports. Chaque vol est caractérisé par son aéroport de départ, son aéroport d'arrivée, son heure de départ et sa durée.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Deux vols sont considérés comme en situation de risque si :
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- leurs trajectoires s'intersectent dans l'espace,
+- leur écart temporel de passage à l'intersection est inférieur à 15 minutes.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Afin d'éviter ces conflits, les vols en risque doivent être assignés à des niveaux de vol différents. L'objectif est donc d'affecter les vols à un nombre limité de niveaux de vol (à hauteur de kmax) en minimisant les conflits.
+
+#### Technologies utilisées
+
+Les technologies utilisées pour ce projet incluent :
+
+- **Java** : Langage principal pour la gestion des données et des algorithmes.
+- **JavaSwing** : Utilisé pour concevoir l'interface graphique interactive.
+
+#### Fonctionnalités
+
+La plateforme proposera plusieurs fonctionnalités clés :
+
+- Construction et visualisation du graphe d’intersection des vols.
+- Lecture et chargement d’un graphe directement depuis un fichier au format graph-testX.txt.
+- Coloration optimisée des graphes pour minimiser le nombre de conflits.
+- Interface graphique permettant de :
+- Charger une liste de 20 graphes d’évaluation et les colorier avec le moins de conflits possibles.
+- Visualiser le graphe d’intersection des vols.
