@@ -11,13 +11,13 @@ tags:
   - API
 ---
 
-## Présentation du projet
+#### Présentation du projet
 
 Le projet consiste à créer une plateforme interactive permettant aux utilisateurs de suivre leurs séries, films et livres préférés. Les utilisateurs pourront discuter de leurs dernières découvertes, créer des listes de favoris et accumuler de l'expérience pour progresser dans un système de niveaux. Ce projet est destiné aux passionnés de séries et films, et a pour but d'encourager l'engagement communautaire et la compétition amicale entre utilisateurs. 
 
 Il est développé par une équipe composée de moi et 3 autres collègues. Le projet a débuté le 10 septembre 2024, avec un délai de six mois, et se structure autour de plusieurs étapes importantes, dont la remise du rapport prévu pour novembre 2024, le premier prototype à la mi-décembre, et le deuxième prototype en fin janvier 2025.
 
-### Technologies utilisées
+#### Technologies utilisées
 
 Les technologies utilisées pour ce projet incluent :
 
@@ -32,7 +32,7 @@ Les ressources suivantes seront également utilisées pour faciliter le dévelop
 - **Notion** : Utilisé pour structurer le projet, organiser le rapport, et gérer les tâches ainsi que la documentation.
 - **Git** : Permet la gestion du code source, le suivi des versions et la collaboration sur le code, assurant une gestion centralisée des modifications et des contributions de chaque membre.
 
-### Fonctionnalités principales
+#### Fonctionnalités principales
 
 La plateforme proposera plusieurs fonctionnalités clés pour améliorer l’expérience des utilisateurs. Tout d'abord, un **catalogue des contenus** permettra aux utilisateurs de consulter et d’ajouter des films, séries et livres. Un **système de recherche** avec **filtres** facilitera la navigation dans le catalogue. L’**authentification** sera gérée avec des fonctionnalités telles que la **création de compte**, **connexion** sécurisée avec limitation des tentatives et la **récupération de mot de passe**.
 
