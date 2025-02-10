@@ -11,12 +11,17 @@ import Icon from './Icon.astro';
 	<div class="stack gap-2 lg:gap-4">
 		<Icon icon="code" color="var(--accent-regular)" size="2.5rem" gradient />
 		<h2>Back End</h2>
-		<p>PHP, Python, Java</p>
+		<p>PHP, Python, Java, Kotlin</p>
 	</div>
 	<div class="stack gap-2 lg:gap-4">
 		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
 		<h2>DataBase</h2>
 		<p>MySQL, MongoDB, PHPmyAdmin</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="code" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>FrameWorks</h2>
+		<p>Symfony, Vue.js, Node.js</p>
 	</div>
 </section>
 
@@ -51,7 +56,7 @@ import Icon from './Icon.astro';
 
 		.skills {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(4, 1fr);
 			gap: 5rem;
 		}
 
