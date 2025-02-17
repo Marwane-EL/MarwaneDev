@@ -1,7 +1,7 @@
 ---
 title: Ob, Your Hobbies in One Place
 publishDate: 2020-03-02 00:00:00
-img: /assets/Ob2.PNG
+img: /assets/Ob2.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Ob est une plateforme en ligne permettant aux utilisateurs de suivre, découvrir et partager leurs passions, qu'il s'agisse de séries, films, livres ou autres centres d'intérêt, tout en gagnant de l'expérience et en interagissant avec une communauté.
